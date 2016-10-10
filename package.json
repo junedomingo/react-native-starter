@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "node_modules/.bin/esw index.ios.js index.android.js src utils",
+    "lint:watch": "npm run lint -- --watch"
   },
   "dependencies": {
     "eslint": "^3.6.0",
