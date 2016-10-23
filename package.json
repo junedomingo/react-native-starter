@@ -1,13 +1,14 @@
 {
-  "name": "ReactNativeStarter",
-  "version": "0.0.1",
+  "name": "react-native-starter",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "lint": "node_modules/.bin/esw index.ios.js index.android.js src utils",
+    "lint": "esw index.ios.js index.android.js src utils",
     "lint:watch": "npm run lint -- --watch"
   },
   "dependencies": {
+    "axios": "^0.15.2",
     "eslint": "^3.6.0",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^1.16.0",
@@ -15,7 +16,32 @@
     "eslint-plugin-react": "^6.3.0",
     "eslint-plugin-react-native": "^2.0.0",
     "eslint-watch": "^2.1.14",
-    "react": "15.3.2",
-    "react-native": "0.34.0"
-  }
+    "lodash": "^4.16.4",
+    "moment": "^2.15.1",
+    "numeral": "^1.5.3",
+    "react": "^15.3.2",
+    "react-native": "^0.32.0",
+    "react-native-linear-gradient": "^1.5.13",
+    "react-native-navigation": "^2.0.0-experimental.133",
+    "react-native-scrollable-tab-view": "git+https://github.com/skv-headless/react-native-scrollable-tab-view.git",
+    "react-native-vector-icons": "^2.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "redux-immutable-state-invariant": "^1.2.4",
+    "redux-logger": "^2.7.0"
+  },
+  "description": "React Native Boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CynderTech/react-native-starter.git"
+  },
+  "author": "June Domingo <june@cynder.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CynderTech/react-native-starter/issues"
+  },
+  "homepage": "https://github.com/CynderTech/react-native-starter#readme"
 }
