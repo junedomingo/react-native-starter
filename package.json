@@ -1,10 +1,10 @@
 {
-  "name": "ReactNativeStarter",
-  "version": "0.0.1",
+  "name": "react-native-starter",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "lint": "node_modules/.bin/esw index.ios.js index.android.js src utils",
+    "lint": "esw index.ios.js index.android.js src utils",
     "lint:watch": "npm run lint -- --watch"
   },
   "dependencies": {
@@ -32,5 +32,16 @@
   "devDependencies": {
     "redux-immutable-state-invariant": "^1.2.4",
     "redux-logger": "^2.7.0"
-  }
+  },
+  "description": "React Native Boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CynderTech/react-native-starter.git"
+  },
+  "author": "June Domingo <june@cynder.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CynderTech/react-native-starter/issues"
+  },
+  "homepage": "https://github.com/CynderTech/react-native-starter#readme"
 }
