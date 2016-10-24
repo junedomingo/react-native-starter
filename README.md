@@ -28,3 +28,8 @@ $ react-native run-android
 ```sh
 $ npm install react-native-rename -g
 ```
+ex
+
+```sh
+$ react-native-rename "Awesome Project"
+```
