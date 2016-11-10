@@ -22,3 +22,14 @@ $ npm install
 $ react-native run-ios
 $ react-native run-android
 ```
+
+#### Rename Project
+
+```sh
+$ npm install react-native-rename -g
+```
+ex
+
+```sh
+$ react-native-rename "Awesome Project"
+```
