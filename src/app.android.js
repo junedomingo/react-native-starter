@@ -25,7 +25,14 @@ Navigation.startSingleScreenApp({
 	screen: {
 		screen: 'movieapp.Movies',
 		title: 'Movies',
-		navigatorStyle
+		navigatorStyle,
+		navigatorButtons: {
+			leftButtons: [
+				{
+					id: 'sideMenu'
+				}
+			]
+		}
 	},
 	drawer: {
 		left: {
